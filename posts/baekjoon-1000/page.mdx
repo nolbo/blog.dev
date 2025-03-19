@@ -1,0 +1,39 @@
+---
+title: "1000번: A+B"
+description: 백준 1000번 문제의 풀이과정입니다.
+image: https://bucket.nolbo.dev/baekjoon-1000/0.png
+publishDate: 2025-03-07 00:00:00
+---
+
+
+<Section>
+  <SolvedAc problemId={1000}/>
+</Section>
+<Section>
+  ## 분석
+
+  입력받은 두 정수들의 합을 구하는 문제이다. 이 문제는 복잡한 알고리즘을 요구하지 않는다.
+</Section>
+<Section>
+  ## 답안
+
+  ~~~cpp
+  #include <iostream>
+
+  using namespace std;
+
+  int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int a, b;
+    cin >> a >> b;
+    cout << a + b << '\n';
+  }
+  ~~~
+</Section>
+<Section>
+  ## 풀이
+
+  `std::cin`을 사용해 두 정수를 입력받아 각각 변수 `a`, `b`에 할당한다. 그 후, `std::cout`을 사용해 두 정수의 합 `a + b`를 출력한다.
+</Section>
